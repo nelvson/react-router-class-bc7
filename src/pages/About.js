@@ -4,9 +4,9 @@ type Props = {};
 export default function About(props: Props) {
   return (
     <div>
-      <h1>BOOTCAMP 7</h1>
+      <h1>About Us</h1>
       <div>
-        <p>JS ACADEMY</p>
+        <p>We are bootcamp 7</p>
       </div>
     </div>
   );
