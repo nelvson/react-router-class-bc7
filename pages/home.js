@@ -1,15 +1,13 @@
-// @flow
-
-import React, {Component} from 'react';
-
-class App extends Component<{}> {
-  render() {
-    return (
-      <div className="App">
-            this is a home page.
+//@flow
+import React from 'react';
+type Props = {};
+export default function About(props: Props) {
+  return (
+    <div>
+      <h1>BOOTCAMP 7</h1>
+      <div>
+        <p>JS ACADEMY</p>
       </div>
-    );
-  }
+    </div>
+  );
 }
-
-export default App;
